@@ -1,0 +1,16 @@
+# Put your local redis configuration here
+redis:
+  host: localhost
+  port: 6379
+  db: 8
+
+# Put your local kafka configuration here
+kafka:
+  :seed_brokers:
+    - localhost:9092
+
+# Misc options
+kafka_topic: frontier-queue
+kafka_consumers_group_id: frontier-queue-consumers
+redis_namespace: turbocrawler
+
