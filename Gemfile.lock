@@ -1,0 +1,18 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    redis (3.3.3)
+    redis-objects (1.2.1)
+      redis (>= 3.0.2)
+    ruby-kafka (0.3.16)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  redis
+  redis-objects
+  ruby-kafka
+
+BUNDLED WITH
+   1.13.7
