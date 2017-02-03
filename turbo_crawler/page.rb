@@ -3,7 +3,7 @@ require 'nokogiri'
 
 module TurboCrawler
   class Page
-    TAGS = %w(link script img a).freeze # extract an href from these tags
+    TAGS = %w(link script img a).freeze
 
     attr_accessor :original_uri, :internal_links, :static_asset_links
 
